@@ -1,5 +1,5 @@
 # career-buddy-
-// lib/main.dart
+
 import 'dart:async';
 import 'dart:math';
 
@@ -7,9 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// CareerBuddy - single-file demo app
-/// Replace mockAI.generateSuggestions(...) with a real API call to integrate OpenAI.
-/// For production split into multiple files.
 
 void main() {
   runApp(
@@ -39,9 +36,7 @@ class CareerBuddyApp extends StatelessWidget {
   }
 }
 
-/* -------------------------
-   Models & Mock AI
-   ------------------------- */
+
 
 class PlannerModel extends ChangeNotifier {
   String name = '';
